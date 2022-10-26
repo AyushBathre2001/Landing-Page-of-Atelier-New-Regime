@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.main #op {
+    z-index: 4;
+    position: absolute;
+    left: 30%;
+    font-size: 300px;
+    color: rgba(0, 0, 0, 0.136);
+
+}
+
+.right {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(32, 233, 143);
+    background-image: url('/model.jpg');
+    background-size: cover;
+
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    width: 5%;
+    height: 300px;
+
+}
+
+.social ul li {
+    list-style: none;
+}
+
+.social ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+
+.social ul li a i {
+    margin: 30px 0px;
+}
+
+.social ul li a i:hover {
+    color: yellow;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    z-index: 5;
+    position: absolute;
+
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin-right: 80px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.navbar ul li a:hover {
+    color: yellow;
+}
+
+
+.box {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 40%;
+    height: 50%;
+
+}
+
+.boxes {
+    width: 30%;
+    margin: 10px;
+    height: 50%;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.short {
+    width: 100%;
+    height: 80%;
+    border: 1px solid white;
+
+}
+
+#one {
+
+    background-image: url(https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#two {
+    background-image: url(https://images.unsplash.com/photo-1564485377539-4af72d1f6a2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1vZGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: top;
+}
+
+
+.shop {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 7vh;
+    background-color: rgba(77, 77, 77, 0.434);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+
+}
+
+.shop:hover {
+    background-color: rgba(77, 77, 77, 0.651);
+    cursor: pointer;
+
+}
+
+.shop h3 {
+    font-size: 22px;
+    letter-spacing: 0.119em;
+    font-style: normal;
+    color: rgb(249, 244, 113);
+}
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+}
+
+.up {
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65%;
+    background-color: rgb(165, 165, 165);
+
+}
+
+.content {
+    position: absolute;
+    right: 10%;
+    text-align: end;
+    width: auto;
+
+}
+
+.content h1 {
+    letter-spacing: 0.056em;
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+
+}
+
+.content h2 {
+    letter-spacing: 0.056em;
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+
+.content h4 {
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 0.019em;
+    color: rgb(25, 84, 129);
+    text-decoration: line-through;
+}
+
+.content h4:hover {
+    cursor: pointer;
+    color: rgb(31, 120, 188);
+
+}
+
+.content h5 {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.005em;
+    font-weight: 700;
+    color: white;
+}
+
+.logo {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    right: 2%;
+    top: 1%;
+}
+
+.logo h4 {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.228em;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    line-height: 1.7;
+    color: rgb(103, 101, 101);
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
