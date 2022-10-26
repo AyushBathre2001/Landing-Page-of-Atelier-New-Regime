@@ -2,7 +2,6 @@
 # Landing Page of Atelier New Regime
 
 Landing Page of "Atelier New Regime" using HTML and CSS.
-Checkout this...
 
 
 ## Screenshots
